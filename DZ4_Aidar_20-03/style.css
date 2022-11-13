@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1143px;
+}
+
+
+.first-task {
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-top: 30px;
+}
+
+.first-task .f-title {
+text-transform: uppercase;
+}
+
+
+.first-task .btns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* ======================== */
+.second-task {
+    margin-top: 100px;
+}
+
+
+.second-task .s-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+} 
+
+
+.positions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.positions #posX {
+    padding-right: 50px;
+}
+
+.coordinates {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#block {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+}
+
+
+/* ======================= */
+/* Third task */
+
+.third-task {
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+
+
+
+.third-task .t-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.third-task-inner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-block {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 90px;
+    background-color: #000;
+    border-radius: 50px;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.red {
+    background-color: #52231d;
+}
+
+.yellow {
+    background-color: #544d1e;
+}
+
+.green {
+    background-color: #194a1b;
+}
