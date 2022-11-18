@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid darkred;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid darkred;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0,6);
+}
+
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+
+.block_text {
+    width: 750px;
+    border: 2px solid darkred;
+    padding: 8px;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#delete_button {
+    padding: 10px;
+    margin-right: 10px;
+    width: 65px;
+    order: 1;
+    transition: .4;
+}
+
+#delete_button:hover {
+    background-color: darkred;
+    color: #fff;
+}
+
+#edit_button {
+    padding: 10px;
+    width: 65px;
+    order: 1;
+    transition: .4;
+}
+
+#edit_button:hover {
+    background-color: #fcba03;
+}
+
+
+.active_buttons  {
+    order: 1;
+}
