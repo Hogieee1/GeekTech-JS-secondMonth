@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+#red {
+    width: 50px;
+    height: 50px;
+    background-color: #6b251d;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+#yellow {
+    width: 50px;
+    height: 50px;
+    background-color: #6b5d1d;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+
+#green {
+    width: 50px;
+    height: 50px;
+    background-color: #114508;
+    margin: 0 auto;
+    border-radius: 50px;
+}
